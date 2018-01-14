@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp"
+    android:gravity="center_horizontal"
+    android:text="Comparison Shopping Engine"
+    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+    />
+  <TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp"
+    android:text="Compare items by prices between shops and choose the shop that offers the best overall value!"
+    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+    />
+  <TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="24dp"
+    android:gravity="center_horizontal"
+    android:text="Tap Scan to open scanner and submit your receipt"
+    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+    />
+  
+  <Button 
+    android:id="@+id/btnScanReceipt"
+    android:text="Scan"
+    android:background="@color/primaryColor"
+    android:layout_width="wrap_content"
+    android:layout_weight="10"
+    android:layout_height="0dp"
+    android:layout_gravity="center"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:drawableLeft="@drawable/ic_camera_black_24dp"
+    style="@style/Widget.AppCompat.Button.Colored"/>
+  
+</LinearLayout>

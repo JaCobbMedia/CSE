@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group
+      android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_lottery"
+        android:icon="@drawable/ic_attach_money_black_24dp"
+        android:title="Receipt Lottery"/>
+    <item
+        android:id="@+id/nav_yourReceipt"
+        android:icon="@drawable/ic_location_on_black_24dp"
+        android:title="Your Receipt" />
+    <item
+            android:id="@+id/nav_statistics"
+            android:icon="@drawable/ic_pie_chart_black_24dp"
+            android:title="Statistics" />
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="About" />-->
+  
+  <item>
+    <item>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Sign Out"/>
+    </item>
+  </item>
+    </group>
+</menu>

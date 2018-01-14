@@ -17,16 +17,5 @@ Code reviews:
 3. Jokūbas Savodnikas -> Martynas Talalas, Maksim Prokofjev<br>
 4. Martynas Talalas -> Maksim Prokofjev, Mindaugas Ranauskas<br>
 
-Funkcionalumas:
-<ul>
-  <li>Prisijungti</li>
-  <li>Nufotografuoti čekį.</li>
-  <li>Iš nuotraukos atpažintį čekį, jo detales.</li>
-  <li>Įkelti prekes ir kainas į duomenų bazę.</li>
-  <li>Palyginti prekių čekyje kainas su esamomis duomenų bazėje.</li>
-  <li>Suvedus prekės pavadinimą palyginti kainas skirtingose parduotuvėse.</li>
-  <li>Nuolaidų ir akcijų track'inimas</li>
-  <li>Virtualus apsipirkimas</li>
-</ul>
+Funkcionalumas: https://drive.google.com/drive/folders/0B9krEx72Eq3XM2ZZdFZHd09EbWs
 
-Planuojama platforma - Windows, toliau realizuoti Android'e.
